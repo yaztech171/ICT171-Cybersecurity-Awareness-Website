@@ -29,4 +29,4 @@ The project will be deployed on a Linux cloud server hosted in Microsoft Azure a
 ## GitHub Development Log
   
 - 31 May 2026 - Repository Created
-- 31 May 2026 - README documentation added. 
+- 31 May 2026 - README documentation added.
