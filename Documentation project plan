@@ -1,0 +1,23 @@
+# Project Plan
+
+## Website Topic
+
+Cybersecurity Awareness Website
+
+## Planned Features
+
+- Home Page
+- Password security information
+- Phishing awareness
+- Multi-factor authentication guide
+- Contact page
+
+## Server Components
+
+- Microsoft Azure Virtual Machine
+- Ubuntu Linux
+- Apache web server
+- DNS confirguration
+- SSL/TLS encryption
+
+## Script
