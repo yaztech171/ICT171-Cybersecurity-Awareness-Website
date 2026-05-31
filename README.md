@@ -21,13 +21,12 @@ The project will be deployed on a Linux cloud server hosted in Microsoft Azure a
 - GitHub Documentation
 - Bash Scripting
 - Cloud Hosting
-- 
+  
 ## Project Status
   
 - Current Stage: Initial Setup
   
 ## GitHub Development Log
   
-- Repository Created
-- Documentation Started
-- 
+- 31 May 2026 - Repository Created
+- 31 May 2026 - README documentation added. 
