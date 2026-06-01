@@ -7,3 +7,14 @@
 - Added student information.
 - Planned website structure.
 - Awaiting Azure subscription reactivation. 
+
+## 1 June 2026
+
+- Azure subscription reactivated.
+- SSH access restored using RSA key authentication.
+- Connected to Linux Virtual Machine through Terminal.
+- Verified Apache web server status.
+- Confirmed website accessibility via public IP address. 
+- Configured Azure DNS name. 
+- Verified website accessibility through DNS hostname.
+- Created GitHub documentation, scripts and website folders. 
