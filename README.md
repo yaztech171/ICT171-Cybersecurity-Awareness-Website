@@ -30,3 +30,7 @@ The project will be deployed on a Linux cloud server hosted in Microsoft Azure a
   
 - 31 May 2026 - Repository Created
 - 31 May 2026 - README documentation added.
+- 1 June 2026 - Azure subscription reactivated
+- 1 June 2026 - SSH access restored
+- 1 June 2026 - Website verified online
+- 1 June 2026 - DNS name confirgured and tested
