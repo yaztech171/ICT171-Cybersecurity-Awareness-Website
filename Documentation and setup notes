@@ -1,20 +1,133 @@
 #Setup Notes
 
-## 31 May 2026
+## Project Timeline
 
+### 31 May 2026
 - Created GitHub repository.
 - Added project overview
-- Added student information.
 - Planned website structure.
 - Awaiting Azure subscription reactivation. 
 
 ## 1 June 2026
 
-- Azure subscription reactivated.
-- SSH access restored using RSA key authentication.
-- Connected to Linux Virtual Machine through Terminal.
-- Verified Apache web server status.
-- Confirmed website accessibility via public IP address. 
+- Connected to Azure virtual machine.
 - Configured Azure DNS name. 
 - Verified website accessibility through DNS hostname.
 - Created GitHub documentation, scripts and website folders. 
+
+# Azure Server Setup Notes
+
+## Project Overview
+
+This project involved creating a cloud-hosted Cybersecurity Awareness website using Microsoft Azure Infrastructure as a Service (IaaS).
+
+## Virtual Machine Configuration
+
+Platform: Microsoft Azure
+
+Operating System: Ubuntu Linux 24.04 LTS
+
+Web Server: Apache2
+
+Public IP Address: 20.70.146.68
+
+## Virtual Machine Creation
+
+1. Logged into Microsoft Azure Portal. 
+2. Created a new Virtual Machine. 
+3. Selected Ubuntu 24.04 LTS image.
+4. Chose standard B1s size. 
+5. Enabled SSH authentication.
+6. Created and downloaded SSH key pair.
+7. Deployed the virtual machine. 
+
+## SSH Access
+
+connected remotley using macOS Terminal.
+
+Example command:
+
+ssh -i azurekey2026.pem azureuser@20.70.146.68
+
+## Network Security
+
+The following inbound rules were enabled:
+
+- Port 22 (SSH) for remote administration 
+- Port 80 (HTTP) for website access
+
+These rules were configured through the Azure Network Security Group associated with the virtual machine. 
+
+## Apache Installation
+
+Updated the server:
+
+sudo apt update
+
+Installed Apache:
+
+sudo apt install apache2 -y
+
+Verified Apache service:
+
+sudo systemct1 status apache2
+
+## Website Deployment
+
+Website files were stored in:
+
+/var/www/html
+
+The index.html file was edited to create the Cybersecurity Awareness Website.
+
+## DNS Configuration
+
+Configured an Azure DNS label through the public IP resource.
+
+The DNS hostname was linked to the virtual machine's public IP address.
+
+## Custom Script
+
+A custom Bash script name serverinfo.sh was developed to automate server monitoring tasks.
+
+The script generates a Cyber Awareness Server Status Report and displays:
+
+- Server hostname
+- Current date and time
+- System uptime
+- Disk space usage
+- Memory usage
+
+Execution:
+
+./serverinfo.sh
+
+The script reduces the need to manually enter multiple Linux commands and provides a quick overview of server health and resource utilisation. 
+
+## Testing and Verification
+
+The server was tested to ensure all components functioned correctly.
+
+Verification included:
+
+- Successful SSH connection from macOS Terminal
+- Apache web server running correctly 
+- Website accessible through public IP address
+- Website accessible through Azure DNS hostname
+- Custom Bash script executed successfully
+
+## Repository Structure
+
+The project repository contains:
+
+Documentation/
+- Setup notes and project documentation
+
+Scripts/
+- serverinfo.sh
+
+Website/
+- index.html
+
+README.md
+- Project overview and usage information.
