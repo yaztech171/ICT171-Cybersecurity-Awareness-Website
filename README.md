@@ -81,4 +81,4 @@ Completed Components:
 - Verified Azure DNS hostname accessibilty.
 - Updatd GitHub repository with lastest project changes.
 - Completed final website refinements and project documentation. 
-- 
+
