@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Server Information"
+echo "CYBER AWARENESS SERVER STATUS REPORT"
 echo "==================="
 echo "Hostname: $(hostname)"
 echo "Date: $(date)"
@@ -13,3 +13,5 @@ df -h
 echo ""
 echo "Memory Usage:"
 free -h
+echo ""
+echo "Cyber Awareness Server Check Complete"
