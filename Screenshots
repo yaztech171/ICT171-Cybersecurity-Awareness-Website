@@ -1,0 +1,22 @@
+### Azure Virtual Machine
+
+The Ubuntu Linux virtual machine was created in Microsoft Azure and configured as the cloud server for this project.
+
+
+
+
+
+## Live Website
+
+The Cybersecurity Awareness website successfully deployed and accessible through the DNS hostname.
+
+
+## SSH Remote Access
+
+SSH was used to securely connect to the Azure virtual machine for server administration and file management.
+
+
+## Custom Bash Script 
+
+The custome serverinfo.sh script displays server health information including uptime, disk usage and memory usage.
+
