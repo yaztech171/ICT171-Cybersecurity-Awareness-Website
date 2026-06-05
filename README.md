@@ -173,3 +173,8 @@ The repository includes screenshots of demonstarting:
 - Github repository structure
 
 ## References 
+ 1. Claude AI. 2026. https://claude.ai
+ 2. GitHub. (2026). GitHub.com Help Documentation. Docs.github.com. https://docs.github.com/en
+ 3. Microsoft Azure. 2026. https://portal.azure.com/#@murdoch.edu.au/resource/subscriptions/00da618e-2aa3-4716-89cd-8e925e897bdd/resourceGroups/cyberawarenessserver_group/providers/Microsoft.Compute/virtualMachines/cyberawarenessserver/overview
+ 4. Murdoch University. (2026) ICT171 Introduction to Server Environments and Architectures - Week 8: DNS. Murdoch University
+ 5. Murdoch University. (2026) ICT171 Introduction to Server Environments and Architectures - Week 9: Linux Scripting and Git. Murdoch University
